@@ -1,0 +1,72 @@
+/* 
+COLORS:
+bg #000
+orange #ff9501
+grey #a6a6a6
+white #fdfdfd
+*/
+
+.calc {
+    margin: 50px auto;  /*Выравнивание по середине страницы*/
+    width: 300px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: #000;
+    color: #fdfdfd;
+    font-family: Arial;
+    padding: 18px;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+.screen {
+    height: 125px;
+    padding: 10px;
+    display: flex;
+   
+    align-items: flex-end;
+    justify-content:end;
+}
+
+.screen p {
+    font-size: 4rem;
+    margin: 0;
+
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.btn {
+    margin: 5px 5px;
+    width: 60px;
+    height: 60px;
+    background: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    filter: brightness(150%)
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn.bg-grey {
+    background: #a6a6a6;
+}
+
+.btn.bg-orange {
+    background: #ff9501;
+}
